@@ -11,12 +11,12 @@ import { Contact } from "./components/sections/Contact";
 
 function App() {
   useHead({
-    title: "Premium Portfolio – Designer & Developer",
+    title: "Mofaggol Hoshen – Senior C#/.NET Developer",
     description:
-      "Explore my latest projects, skills, and experience. Premium portfolio showcase.",
+      "Senior C#/.NET Developer with 7+ years building enterprise and cloud-native applications. ASP.NET Core, Azure, microservices, CQRS, and more.",
     canonical: window.location.href,
-    ogTitle: "Premium Portfolio",
-    ogDescription: "Explore my latest projects, skills, and experience.",
+    ogTitle: "Mofaggol Hoshen – Senior C#/.NET Developer",
+    ogDescription: "Senior C#/.NET Developer with 7+ years building enterprise and cloud-native applications.",
     ogUrl: window.location.href,
     twitterCard: "summary_large_image",
   });

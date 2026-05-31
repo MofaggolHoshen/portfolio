@@ -14,16 +14,16 @@ export function Experience() {
         title="Where I've Worked"
         subtitle="A timeline of roles that shaped how I think and build."
       />
-      <ol className="flex flex-col gap-0" aria-label="Work experience timeline">
+      <ol className="flex flex-col" aria-label="Work experience timeline">
         {EXPERIENCE.map((item, idx) => (
           <li key={item.id} className="flex gap-6">
             <div className="flex flex-col items-center pt-1 w-5 shrink-0" aria-hidden="true">
               <span className="w-3 h-3 rounded-full bg-[--color-accent] shrink-0" />
               {idx < EXPERIENCE.length - 1 && (
-                <span className="w-px flex-1 bg-[--color-line] mt-1" />
+                <span className="w-px flex-1 bg-[--color-line] mt-2" />
               )}
             </div>
-            <div className="pb-10 last:pb-0">
+            <div className={`pb-12 ${idx === EXPERIENCE.length - 1 ? 'pb-0' : ''}`}>
               <span className="text-xs font-semibold tracking-[1.5px] uppercase text-[--color-accent] mb-1 block">
                 {item.period}
               </span>

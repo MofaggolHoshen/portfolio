@@ -12,16 +12,19 @@ export function About() {
           <SectionHeader
             eyebrow="About"
             title="Who I Am"
-            subtitle="Software Engineer with 7+ years of experience building reliable, production-grade software."
+            subtitle="Senior C#/.NET Developer with 7+ years of hands-on experience building enterprise-grade and cloud-native applications."
           />
           <p className="text-[--color-muted] leading-relaxed mb-5">
-            I'm a Software Engineer at Quipu GmbH, where I've spent over seven years crafting full-stack
-            applications with C#, .NET, and modern frontend technologies. I care deeply about clean
-            architecture, maintainable code, and software that actually solves problems.
+            I'm a Software Developer at Quipu GmbH in Frankfurt, where I design and build full-stack
+            applications with C#, ASP.NET Core, Blazor, and Azure. My focus is on microservices,
+            CQRS, clean architecture, and distributed system design — delivering secure, scalable
+            software in Agile environments.
           </p>
           <p className="text-[--color-muted] leading-relaxed">
-            Beyond my day job, I build side projects that explore distributed systems, mobile apps,
-            and developer tooling — always looking for the most elegant solution to a hard problem.
+            Previously a Working Student at Daenet GmbH building IoT REST APIs and Azure cloud integration,
+            and a Teaching Assistant at Frankfurt University of Applied Sciences guiding students in
+            .NET, Azure, and machine learning. I hold a Master of Engineering in Information Technology
+            from Frankfurt UAS.
           </p>
         </div>
         <div className="shrink-0 max-lg:w-full">

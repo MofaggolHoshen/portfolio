@@ -47,65 +47,76 @@ export const PROJECTS: Project[] = [
     tags: ["ASP.NET Core 9", "C#", "JWT", "Entity Framework Core", "SQL Server", "xUnit"],
     repoUrl: "https://github.com/MofaggolHoshen/dotnet-auth-service",
   },
-  {
-    id: "blood-pressure-log",
-    title: "Blood Pressure Log",
-    description:
-      "Web app for patients to log daily health data (blood pressure, pulse, etc.) and for doctors to view patient progress and add comments. Built with ASP.NET, Entity Framework, and Azure SQL Database using MVC architecture.",
-    tags: ["ASP.NET", "C#", "Entity Framework", "Azure", "MVC"],
-  },
-  {
-    id: "face-detection-recognition",
-    title: "Face Detection & Recognition",
-    description:
-      "Desktop application using the Viola-Jones object detection algorithm and Eigenfaces for face recognition. Built with C# and OpenCV via the Emgu CV wrapper library.",
-    tags: ["C#", "OpenCV", "Emgu CV", "Computer Vision"],
-  },
-  {
-    id: "speed-of-reading",
-    title: "Speed of Reading",
-    description:
-      "WPF desktop app that improves reading speed by displaying text word-by-word at configurable speeds. Supports custom font styles and sizes. Built with WPF, .NET Framework, and MVVM architecture.",
-    tags: ["C#", "WPF", ".NET Framework", "MVVM"],
-  },
 ];
 
 export const SKILLS: Skill[] = [
-  { label: "React", category: "frontend" },
+  // Frontend
+  { label: "HTML5 / CSS3", category: "frontend" },
+  { label: "JavaScript / jQuery", category: "frontend" },
   { label: "TypeScript", category: "frontend" },
-  { label: "CSS / Tailwind", category: "frontend" },
-  { label: "Accessibility (WCAG)", category: "frontend" },
+  { label: "Angular", category: "frontend" },
+  { label: "Blazor", category: "frontend" },
+  { label: "Bootstrap", category: "frontend" },
+  // Backend
   { label: "C# / .NET", category: "backend" },
-  { label: "ASP.NET Core", category: "backend" },
-  { label: "REST APIs", category: "backend" },
+  { label: "ASP.NET Core 8/9/10", category: "backend" },
   { label: "Entity Framework Core", category: "backend" },
-  { label: "PostgreSQL / SQL Server", category: "backend" },
-  { label: "Redis", category: "backend" },
-  { label: "Azure Service Bus", category: "backend" },
+  { label: "REST APIs", category: "backend" },
+  { label: "OAuth2 / JWT", category: "backend" },
+  { label: "WPF / MVVM", category: "backend" },
+  { label: "MS SQL / PostgreSQL", category: "backend" },
+  { label: "MongoDB / Redis", category: "backend" },
+  { label: "RabbitMQ / Azure Service Bus", category: "backend" },
+  // Tooling & DevOps
   { label: "Docker", category: "tooling" },
-  { label: "GitHub Actions / CI/CD", category: "tooling" },
+  { label: "Azure DevOps / Pipelines", category: "tooling" },
   { label: "Git", category: "tooling" },
-  { label: "xUnit / Testing", category: "tooling" },
+  { label: "xUnit / Unit Testing", category: "tooling" },
+  { label: "PowerShell / CLI", category: "tooling" },
+  // Architecture & Cloud
+  { label: "CQRS / MediatR", category: "other" },
+  { label: "Saga Pattern", category: "other" },
+  { label: "Microservices", category: "other" },
+  { label: "SOLID / Design Patterns", category: "other" },
+  { label: "Azure (Functions, API Mgmt, VMs)", category: "other" },
 ];
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    id: "exp-1",
+    id: "exp-quipu",
     company: "Quipu GmbH",
-    role: "Software Engineer",
-    period: "2018 – Present",
+    role: "Software Developer",
+    period: "May 2018 – Present",
     description:
-      "Over seven years delivering production software at a German software company. Building and maintaining full-stack features across backend services and frontend applications, with a focus on clean architecture, reliability, and long-term maintainability.",
-    tags: ["C#", ".NET", "ASP.NET Core", "SQL Server", "Azure"],
+      "Design and develop full-stack applications using C#, ASP.NET Core 8, Blazor, and Entity Framework Core. Build and maintain microservices and REST APIs on Microsoft Azure. Apply CQRS with MediatR, Saga orchestration patterns, Redis caching, and RabbitMQ messaging. Implement OAuth2/JWT authentication, Docker containerization, and CI/CD via Azure Pipelines. Conduct code reviews and mentor junior developers in an Agile team.",
+    tags: ["C#", "ASP.NET Core", "Blazor", "Azure", "CQRS", "MediatR", "Docker", "Redis", "RabbitMQ"],
   },
   {
-    id: "exp-2",
-    company: "Dr. Koch Consulting",
-    role: "C# Developer Intern",
-    period: "Sep 2015 – Jan 2016",
+    id: "exp-daenet",
+    company: "Daenet GmbH",
+    role: "Software Developer (Working Student)",
+    period: "Jul 2016 – Apr 2018",
     description:
-      "Developed add-ons for Microsoft PowerPoint using C#. Gained hands-on experience with the Office interop APIs and desktop application development.",
-    tags: ["C#", ".NET", "Microsoft Office API"],
+      "Developed IoT REST APIs and cloud integration tools on the Azure Cloud Platform using .NET Core 2.0. Built the UI for Gateway Management using Angular, Bootstrap, and HTML5. Worked on an SDK for IoT Edge module development and device connectivity.",
+    tags: ["C#", ".NET Core", "Azure IoT", "Angular", "Bootstrap", "REST API"],
+  },
+  {
+    id: "exp-fra-uas",
+    company: "Frankfurt University of Applied Sciences",
+    role: "Teaching Assistant",
+    period: "Nov 2015 – Dec 2017",
+    description:
+      "Assisted in teaching .NET and the Azure Durable Task Framework. Guided student projects in machine learning and object recognition for HoloLens.",
+    tags: [".NET", "Azure", "Machine Learning", "HoloLens"],
+  },
+  {
+    id: "exp-ipvision",
+    company: "IPVision Canada Inc.",
+    role: "Customer Support Engineer",
+    period: "Dec 2012 – Jul 2013",
+    description:
+      "Delivered technical support and issue resolution for network and software clients in Dhaka, Bangladesh.",
+    tags: ["Technical Support", "Networking"],
   },
 ];
 
