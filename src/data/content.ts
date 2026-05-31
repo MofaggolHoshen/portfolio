@@ -8,47 +8,63 @@ import type {
 
 export const PROJECTS: Project[] = [
   {
-    id: "project-1",
-    title: "E-Commerce Platform",
+    id: "dotnet-saas-multitenant-api",
+    title: "SaaS Multi-Tenant API",
     description:
-      "A full-stack e-commerce solution with cart, checkout, and admin dashboard. Optimized for performance and mobile.",
-    tags: ["React", "TypeScript", "Node.js", "PostgreSQL"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/MofaggolHoshen",
+      "Scalable multi-tenant SaaS backend built with ASP.NET Core (.NET 10), Clean Architecture, and Domain-Driven Design. Features CQRS with MediatR, JWT auth with refresh token rotation, Redis caching, rate limiting, Docker + docker-compose, and comprehensive integration test coverage.",
+    tags: ["ASP.NET Core", "C#", "Clean Architecture", "DDD", "CQRS", "PostgreSQL", "Redis", "Docker"],
+    repoUrl: "https://github.com/MofaggolHoshen/dotnet-saas-multitenant-api",
   },
   {
-    id: "project-2",
-    title: "Task Management App",
+    id: "habito",
+    title: "Habito — Habit & Task Tracker",
     description:
-      "Real-time collaborative task manager with drag-and-drop boards, notifications, and team sharing.",
-    tags: ["Next.js", "Prisma", "WebSockets", "Tailwind"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/MofaggolHoshen",
+      "Mobile-first React Native app for tracking daily habits, tasks, and mood. Features an interactive calendar, daily rating system (0–10 with emoji), pre-built templates, streak tracking, analytics dashboard with achievement badges, and SQLite persistence.",
+    tags: ["React Native", "TypeScript", "SQLite", "React Navigation", "Context API"],
+    repoUrl: "https://github.com/MofaggolHoshen/habito",
   },
   {
-    id: "project-3",
-    title: "Developer Portfolio CLI",
+    id: "multi-tenant-http-client-factory",
+    title: "Multi-Tenant HttpClientFactory",
     description:
-      "A terminal-based interactive portfolio generator that scaffolds personal sites from a config file.",
-    tags: ["Node.js", "TypeScript", "Vite", "CLI"],
-    repoUrl: "https://github.com/MofaggolHoshen",
+      "A .NET library that extends IHttpClientFactory for multi-tenant apps — resolves the current tenant from headers, subdomains, or JWT claims, loads per-tenant config (endpoints, certificates, timeouts), and serves pooled HttpClient instances with hot-reload support.",
+    tags: [".NET", "C#", "Library", "Multi-tenancy", "HttpClient", "Azure Key Vault"],
+    repoUrl: "https://github.com/MofaggolHoshen/multi-tenant-http-client-factory",
+  },
+  {
+    id: "dotnet-stripe-payment-demo",
+    title: "Stripe Payment Integration",
+    description:
+      "ASP.NET Core demo integrating Stripe for payment processing. Covers checkout session creation, webhook handling, payment intent flow, and secure server-side validation.",
+    tags: ["ASP.NET Core", "C#", "Stripe", "Payments", "Webhooks"],
+    repoUrl: "https://github.com/MofaggolHoshen/dotnet-stripe-payment-demo",
+  },
+  {
+    id: "dotnet-auth-service",
+    title: "ASP.NET Core Auth Service",
+    description:
+      "Production-ready authentication microservice built with ASP.NET Core 9. Implements JWT + refresh tokens, email verification, password reset, configurable email providers (SMTP/SendGrid), FluentValidation, and comprehensive xUnit unit and integration test coverage.",
+    tags: ["ASP.NET Core 9", "C#", "JWT", "Entity Framework Core", "SQL Server", "xUnit"],
+    repoUrl: "https://github.com/MofaggolHoshen/dotnet-auth-service",
   },
 ];
 
 export const SKILLS: Skill[] = [
   { label: "React", category: "frontend" },
   { label: "TypeScript", category: "frontend" },
-  { label: "CSS / SCSS", category: "frontend" },
-  { label: "Next.js", category: "frontend" },
-  { label: "Accessibility", category: "frontend" },
-  { label: "Node.js", category: "backend" },
+  { label: "CSS / Tailwind", category: "frontend" },
+  { label: "Accessibility (WCAG)", category: "frontend" },
+  { label: "C# / .NET", category: "backend" },
+  { label: "ASP.NET Core", category: "backend" },
   { label: "REST APIs", category: "backend" },
-  { label: "PostgreSQL", category: "backend" },
-  { label: "GraphQL", category: "backend" },
-  { label: "Vite", category: "tooling" },
-  { label: "Git", category: "tooling" },
+  { label: "Entity Framework Core", category: "backend" },
+  { label: "PostgreSQL / SQL Server", category: "backend" },
+  { label: "Redis", category: "backend" },
+  { label: "Azure Service Bus", category: "backend" },
   { label: "Docker", category: "tooling" },
-  { label: "CI/CD", category: "tooling" },
+  { label: "GitHub Actions / CI/CD", category: "tooling" },
+  { label: "Git", category: "tooling" },
+  { label: "xUnit / Testing", category: "tooling" },
 ];
 
 export const EXPERIENCE: ExperienceItem[] = [
