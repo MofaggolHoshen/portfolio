@@ -1,0 +1,22 @@
+# Allow all bots to crawl and index the site
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.github/
+Disallow: /.git/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional, in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://mofaggolhoshen.github.io/sitemap.xml
