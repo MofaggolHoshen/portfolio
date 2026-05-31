@@ -12,7 +12,16 @@ export const PROJECTS: Project[] = [
     title: "SaaS Multi-Tenant API",
     description:
       "Scalable multi-tenant SaaS backend built with ASP.NET Core (.NET 10), Clean Architecture, and Domain-Driven Design. Features CQRS with MediatR, JWT auth with refresh token rotation, Redis caching, rate limiting, Docker + docker-compose, and comprehensive integration test coverage.",
-    tags: ["ASP.NET Core", "C#", "Clean Architecture", "DDD", "CQRS", "PostgreSQL", "Redis", "Docker"],
+    tags: [
+      "ASP.NET Core",
+      "C#",
+      "Clean Architecture",
+      "DDD",
+      "CQRS",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+    ],
     repoUrl: "https://github.com/MofaggolHoshen/dotnet-saas-multitenant-api",
   },
   {
@@ -20,7 +29,13 @@ export const PROJECTS: Project[] = [
     title: "Habito — Habit & Task Tracker",
     description:
       "Mobile-first React Native app for tracking daily habits, tasks, and mood. Features an interactive calendar, daily rating system (0–10 with emoji), pre-built templates, streak tracking, analytics dashboard with achievement badges, and SQLite persistence.",
-    tags: ["React Native", "TypeScript", "SQLite", "React Navigation", "Context API"],
+    tags: [
+      "React Native",
+      "TypeScript",
+      "SQLite",
+      "React Navigation",
+      "Context API",
+    ],
     repoUrl: "https://github.com/MofaggolHoshen/habito",
   },
   {
@@ -28,8 +43,16 @@ export const PROJECTS: Project[] = [
     title: "Multi-Tenant HttpClientFactory",
     description:
       "A .NET library that extends IHttpClientFactory for multi-tenant apps — resolves the current tenant from headers, subdomains, or JWT claims, loads per-tenant config (endpoints, certificates, timeouts), and serves pooled HttpClient instances with hot-reload support.",
-    tags: [".NET", "C#", "Library", "Multi-tenancy", "HttpClient", "Azure Key Vault"],
-    repoUrl: "https://github.com/MofaggolHoshen/multi-tenant-http-client-factory",
+    tags: [
+      ".NET",
+      "C#",
+      "Library",
+      "Multi-tenancy",
+      "HttpClient",
+      "Azure Key Vault",
+    ],
+    repoUrl:
+      "https://github.com/MofaggolHoshen/multi-tenant-http-client-factory",
   },
   {
     id: "dotnet-stripe-payment-demo",
@@ -44,7 +67,14 @@ export const PROJECTS: Project[] = [
     title: "ASP.NET Core Auth Service",
     description:
       "Production-ready authentication microservice built with ASP.NET Core 9. Implements JWT + refresh tokens, email verification, password reset, configurable email providers (SMTP/SendGrid), FluentValidation, and comprehensive xUnit unit and integration test coverage.",
-    tags: ["ASP.NET Core 9", "C#", "JWT", "Entity Framework Core", "SQL Server", "xUnit"],
+    tags: [
+      "ASP.NET Core 9",
+      "C#",
+      "JWT",
+      "Entity Framework Core",
+      "SQL Server",
+      "xUnit",
+    ],
     repoUrl: "https://github.com/MofaggolHoshen/dotnet-auth-service",
   },
 ];
@@ -54,8 +84,11 @@ export const SKILLS: Skill[] = [
   { label: "HTML5 / CSS3", category: "frontend" },
   { label: "JavaScript / jQuery", category: "frontend" },
   { label: "TypeScript", category: "frontend" },
+  { label: "React", category: "frontend" },
+  { label: "React Native", category: "frontend" },
   { label: "Angular", category: "frontend" },
   { label: "Blazor", category: "frontend" },
+  { label: "Tailwind CSS", category: "frontend" },
   { label: "Bootstrap", category: "frontend" },
   // Backend
   { label: "C# / .NET", category: "backend" },
@@ -89,7 +122,17 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "May 2018 – Present",
     description:
       "Design and develop full-stack applications using C#, ASP.NET Core 8, Blazor, and Entity Framework Core. Build and maintain microservices and REST APIs on Microsoft Azure. Apply CQRS with MediatR, Saga orchestration patterns, Redis caching, and RabbitMQ messaging. Implement OAuth2/JWT authentication, Docker containerization, and CI/CD via Azure Pipelines. Conduct code reviews and mentor junior developers in an Agile team.",
-    tags: ["C#", "ASP.NET Core", "Blazor", "Azure", "CQRS", "MediatR", "Docker", "Redis", "RabbitMQ"],
+    tags: [
+      "C#",
+      "ASP.NET Core",
+      "Blazor",
+      "Azure",
+      "CQRS",
+      "MediatR",
+      "Docker",
+      "Redis",
+      "RabbitMQ",
+    ],
   },
   {
     id: "exp-daenet",
