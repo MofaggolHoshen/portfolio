@@ -47,6 +47,27 @@ export const PROJECTS: Project[] = [
     tags: ["ASP.NET Core 9", "C#", "JWT", "Entity Framework Core", "SQL Server", "xUnit"],
     repoUrl: "https://github.com/MofaggolHoshen/dotnet-auth-service",
   },
+  {
+    id: "blood-pressure-log",
+    title: "Blood Pressure Log",
+    description:
+      "Web app for patients to log daily health data (blood pressure, pulse, etc.) and for doctors to view patient progress and add comments. Built with ASP.NET, Entity Framework, and Azure SQL Database using MVC architecture.",
+    tags: ["ASP.NET", "C#", "Entity Framework", "Azure", "MVC"],
+  },
+  {
+    id: "face-detection-recognition",
+    title: "Face Detection & Recognition",
+    description:
+      "Desktop application using the Viola-Jones object detection algorithm and Eigenfaces for face recognition. Built with C# and OpenCV via the Emgu CV wrapper library.",
+    tags: ["C#", "OpenCV", "Emgu CV", "Computer Vision"],
+  },
+  {
+    id: "speed-of-reading",
+    title: "Speed of Reading",
+    description:
+      "WPF desktop app that improves reading speed by displaying text word-by-word at configurable speeds. Supports custom font styles and sizes. Built with WPF, .NET Framework, and MVVM architecture.",
+    tags: ["C#", "WPF", ".NET Framework", "MVVM"],
+  },
 ];
 
 export const SKILLS: Skill[] = [
@@ -70,30 +91,21 @@ export const SKILLS: Skill[] = [
 export const EXPERIENCE: ExperienceItem[] = [
   {
     id: "exp-1",
-    company: "Placeholder Corp",
-    role: "Senior Frontend Developer",
-    period: "2023 – Present",
+    company: "Quipu GmbH",
+    role: "Software Engineer",
+    period: "2018 – Present",
     description:
-      "Led the frontend architecture for the core product. Reduced bundle size by 40% and improved Lighthouse score from 62 to 95.",
-    tags: ["React", "TypeScript", "Performance"],
+      "Over seven years delivering production software at a German software company. Building and maintaining full-stack features across backend services and frontend applications, with a focus on clean architecture, reliability, and long-term maintainability.",
+    tags: ["C#", ".NET", "ASP.NET Core", "SQL Server", "Azure"],
   },
   {
     id: "exp-2",
-    company: "Startup XYZ",
-    role: "Full Stack Developer",
-    period: "2021 – 2023",
+    company: "Dr. Koch Consulting",
+    role: "C# Developer Intern",
+    period: "Sep 2015 – Jan 2016",
     description:
-      "Built and shipped three major product features end-to-end. Owned the API design and frontend implementation.",
-    tags: ["Node.js", "React", "PostgreSQL"],
-  },
-  {
-    id: "exp-3",
-    company: "Freelance",
-    role: "Web Developer",
-    period: "2019 – 2021",
-    description:
-      "Delivered custom websites and web apps for clients across retail, healthcare, and education sectors.",
-    tags: ["HTML", "CSS", "JavaScript", "WordPress"],
+      "Developed add-ons for Microsoft PowerPoint using C#. Gained hands-on experience with the Office interop APIs and desktop application development.",
+    tags: ["C#", ".NET", "Microsoft Office API"],
   },
 ];
 

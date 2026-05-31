@@ -12,24 +12,24 @@ export function About() {
           <SectionHeader
             eyebrow="About"
             title="Who I Am"
-            subtitle="Developer, problem-solver, and occasional over-engineer of side projects."
+            subtitle="Software Engineer with 7+ years of experience building reliable, production-grade software."
           />
           <p className="text-[--color-muted] leading-relaxed mb-5">
-            I'm a full stack developer with a passion for building products that are both
-            technically solid and genuinely delightful to use. I care deeply about
-            performance, accessibility, and maintainable code.
+            I'm a Software Engineer at Quipu GmbH, where I've spent over seven years crafting full-stack
+            applications with C#, .NET, and modern frontend technologies. I care deeply about clean
+            architecture, maintainable code, and software that actually solves problems.
           </p>
           <p className="text-[--color-muted] leading-relaxed">
-            When I'm not shipping code, I'm probably reading about distributed systems,
-            experimenting with new tools, or writing about things I've learned.
+            Beyond my day job, I build side projects that explore distributed systems, mobile apps,
+            and developer tooling — always looking for the most elegant solution to a hard problem.
           </p>
         </div>
         <div className="shrink-0 max-lg:w-full">
           <div className="grid grid-cols-3 gap-6 max-sm:grid-cols-1">
             {[
-              { value: '5+', label: 'Years Experience' },
-              { value: '30+', label: 'Projects Shipped' },
-              { value: '10+', label: 'Happy Clients' },
+              { value: '7+', label: 'Years Experience' },
+              { value: '20+', label: 'Projects Shipped' },
+              { value: '5+', label: 'Open Source Repos' },
             ].map(({ value, label }) => (
               <div
                 key={label}

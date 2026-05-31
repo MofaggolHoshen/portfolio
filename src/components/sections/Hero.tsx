@@ -35,7 +35,7 @@ export function Hero() {
           </a>
           <span className="text-[--color-line]" aria-hidden="true">·</span>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/mofaggol-hoshen-a62b2093/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-[--color-muted] no-underline transition-colors hover:text-[--color-accent] focus-visible:outline-2 focus-visible:outline-[--color-accent] focus-visible:outline-offset-2 rounded"
