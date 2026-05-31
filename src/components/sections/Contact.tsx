@@ -164,7 +164,7 @@ export function Contact() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/mofaggol-hoshen-a62b2093/"
+            href="https://www.linkedin.com/in/mofaggol-hoshen/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-[--color-muted] no-underline transition-colors hover:text-[--color-accent] focus-visible:outline-2 focus-visible:outline-[--color-accent] focus-visible:outline-offset-2 rounded"
