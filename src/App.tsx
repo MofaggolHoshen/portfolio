@@ -1,3 +1,4 @@
+import { useHead } from './hooks/useHead'
 import { Layout } from './components/layout/Layout'
 import { Hero } from './components/sections/Hero'
 import { Projects } from './components/sections/Projects'
@@ -9,6 +10,16 @@ import { BlogPreview } from './components/sections/BlogPreview'
 import { Contact } from './components/sections/Contact'
 
 function App() {
+  useHead({
+    title: 'Premium Portfolio – Designer & Developer',
+    description: 'Explore my latest projects, skills, and experience. Premium portfolio showcase.',
+    canonical: window.location.href,
+    ogTitle: 'Premium Portfolio',
+    ogDescription: 'Explore my latest projects, skills, and experience.',
+    ogUrl: window.location.href,
+    twitterCard: 'summary_large_image'
+  })
+
   return (
     <Layout>
       <Hero />
